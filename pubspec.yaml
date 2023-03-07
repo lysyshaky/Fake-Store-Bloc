@@ -1,0 +1,42 @@
+name: test_store
+description: An app which uses fake store api
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  authentication_repository:
+    path: packages/authentication_repository
+  bloc: ^8.1.1
+  build_runner: ^2.3.3
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  formz: ^0.4.1
+  google_fonts: ^4.0.3
+  http: ^0.13.5
+  hydrated_bloc: ^9.1.0
+  intl: ^0.17.0
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+  path_provider: ^2.0.13
+  store_repository:
+    path: packages/store_repository
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
