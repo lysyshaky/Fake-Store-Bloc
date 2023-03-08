@@ -1,4 +1,4 @@
-#Test Store
+## Test Store
 
  A test store app utilizing fake store api.
 
